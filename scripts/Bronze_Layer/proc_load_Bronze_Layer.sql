@@ -24,7 +24,7 @@ BEGIN
 			TABLOCK
 		);
 		SET @end_time = GETDATE();
-		PRINT '>> Load Duration:' + CAST(DATEDIFF(second, @start_time, @end_time) AS VARCHAR) + 'seconds';
+		PRINT '>> Load Duration:' + CAST(DATEDIFF(second, @start_time, @end_time) AS VARCHAR) + ' seconds';
 		PRINT '>> -------------';
 
 		SET @start_time = GETDATE()
@@ -39,7 +39,7 @@ BEGIN
 			TABLOCK
 		);
 		SET @end_time = GETDATE();
-		PRINT '>> Load Duration:' + CAST(DATEDIFF(second, @start_time, @end_time) AS VARCHAR) + 'seconds';
+		PRINT '>> Load Duration:' + CAST(DATEDIFF(second, @start_time, @end_time) AS VARCHAR) + ' seconds';
 		PRINT '>> -------------';
 
 		SET @start_time = GETDATE()
@@ -54,7 +54,7 @@ BEGIN
 			TABLOCK
 		);
 		SET @end_time = GETDATE();
-		PRINT '>> Load Duration:' + CAST(DATEDIFF(second, @start_time, @end_time) AS VARCHAR) + 'seconds';
+		PRINT '>> Load Duration:' + CAST(DATEDIFF(second, @start_time, @end_time) AS VARCHAR) + ' seconds';
 		PRINT '>> -------------';
 
 		PRINT '------------------------------------------------';
@@ -73,7 +73,7 @@ BEGIN
 			TABLOCK
 		);
 		SET @end_time = GETDATE();
-		PRINT '>> Load Duration:' + CAST(DATEDIFF(second, @start_time, @end_time) AS VARCHAR) + 'seconds';
+		PRINT '>> Load Duration:' + CAST(DATEDIFF(second, @start_time, @end_time) AS VARCHAR) + ' seconds';
 		PRINT '>> -------------';
 
 		SET @start_time = GETDATE()
@@ -88,7 +88,7 @@ BEGIN
 			TABLOCK
 		);
 		SET @end_time = GETDATE();
-		PRINT '>> Load Duration:' + CAST(DATEDIFF(second, @start_time, @end_time) AS VARCHAR) + 'seconds';
+		PRINT '>> Load Duration:' + CAST(DATEDIFF(second, @start_time, @end_time) AS VARCHAR) + ' seconds';
 		PRINT '>> -------------';
 
 		SET @start_time = GETDATE()
@@ -103,7 +103,7 @@ BEGIN
 			TABLOCK
 		);
 		SET @end_time = GETDATE();
-		PRINT '>> Load Duration:' + CAST(DATEDIFF(second, @start_time, @end_time) AS VARCHAR) + 'seconds';
+		PRINT '>> Load Duration:' + CAST(DATEDIFF(second, @start_time, @end_time) AS VARCHAR) + ' seconds';
 		PRINT '>> -------------';
 		SET @batch_end_Time = GETDATE();
 
